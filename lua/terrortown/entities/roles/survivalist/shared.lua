@@ -9,7 +9,7 @@ function ROLE:PreInitialize()
 
 	self.abbr = "surv" -- abbreviation
 	self.surviveBonus = 1 -- bonus multiplier for every survive while another player was killed
-	self.scoreKillsMultiplier = 1 -- multiplier for kill of player of another team
+	self.scoreKillsMultiplier = 2 -- multiplier for kill of player of another team
 	self.scoreTeamKillsMultiplier = -8 -- multiplier for teamkill
 	self.unknownTeam = true -- player don't know their teammates
 

@@ -5,7 +5,7 @@ if SERVER then
 end
 
 function ROLE:PreInitialize()
-	self.color = Color(80, 140, 90, 255)
+	self.color = Color(10, 40, 190, 55)
 
 	self.abbr = "surv" -- abbreviation
 	self.surviveBonus = 1 -- bonus multiplier for every survive while another player was killed
